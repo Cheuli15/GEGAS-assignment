@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+.first{
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(./images/background1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.background{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(48, 47, 48, 0.7);
+}
+
+.nav{
+	height: 10vh;
+	}
+.nav > nav{
+	margin:  0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: inherit;
+}
+.main_screen{
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main_comp{
+	width: 35vw;
+	height: 60vh;
+	border-radius: 50%;
+	background-color: rgba(11, 93, 60, 0.359);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	
+}
+.main_comp > h3{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 550;
+}
+.main_comp > p{
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+}
+.buttons{
+	margin: 20px ;
+	display: inline;
+	
+}
+.buttons > button:nth-child(1){
+	font-size: 12px;
+	padding: 10px 15px;
+	border-radius: 1px;
+	color: white;
+	background-color: rgba(128, 0, 128, 1);
+	border: none;
+	cursor: pointer;
+}
+.buttons > button:nth-child(1):hover{
+	color: purple;
+	background-color: white;
+	transition: 1s ease-in-out;
+}
+
+.buttons > button:nth-child(2){
+	font-size: 12px;
+	padding: 10px 15px;
+	border-radius: 1px;
+	color: white;
+	background-color: orangered;
+	border: none;
+	cursor: pointer;
+}
+.buttons > button:nth-child(2):hover{
+	color: orangered;
+	background-color: white;
+	transition: 1s ease;
+}
+
+.second{
+	background-color: white;
+	width: 100vw;
+	height: 60vh;
+	display: flex;
+	gap: 3px;
+	justify-content: center;
+	align-items: center;	
+}
+.card{
+	width: 20%;
+	min-height: 250px;
+	
+}
+.card > img{
+	width: 100%;
+	height: auto;
+
+}
+.card > h2{
+	padding: 5px ;
+	font-size: 15px;
+} 
+.card > p{
+	padding: 5px;
+	font-size: 12px;
+}
+.third{
+	width: 100vw;
+	height: 30vh;
+	background-color: rgb(14, 91, 62);
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.third > h2{
+	font-size: 30px;
+	font-weight: 550;
+}
+.third > h3 {
+	font-size: 14px;
+}
+.third > p{
+	padding: 15px 0;
+	font-size: 12px;
+	width: 60vw;
+	text-align: center;
+}
